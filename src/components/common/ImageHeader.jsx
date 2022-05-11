@@ -1,16 +1,17 @@
 import React from "react";
+import styles from "../../../styles/common/imageHeader.module.css";
 
 const ImageHeader = ({ header, image }) => {
   return (
     <>
-      <div className="container">
+      <div className={styles.container}>
         <h1 className="header">{header}</h1>
       </div>
       <style jsx>{`
         .container {
           background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
             url(${image});
-          height: 15rem;
+          height: 25rem;
           background-repeat: no-repeat;
           background-size: cover;
           background-position: 0 50%;

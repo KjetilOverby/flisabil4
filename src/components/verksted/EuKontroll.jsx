@@ -4,7 +4,7 @@ const EuKontroll = () => {
   return (
     <>
       <div className="container">
-        <h1>Eu-kontroll</h1>
+        <h1 className="global-header">Eu-kontroll</h1>
         <p className="text textEu1">
           Vi tar eu-kontroll på alle type biler inntil 7500kg, og bobiler. Hos
           oss har vi fast lavpris på Eu-kontroll. Vi gir tilbud til

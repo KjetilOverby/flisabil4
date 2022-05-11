@@ -1,0 +1,17 @@
+.container {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("../../assets/verksted/verksted.jpg");
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 2100px) {
+  .container {
+    height: 28rem;
+  }
+}
