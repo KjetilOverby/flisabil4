@@ -1,0 +1,59 @@
+.bilxtralogo {
+  height: 5rem;
+}
+.container {
+  background: rgb(129, 156, 153);
+  color: rgb(219, 219, 219);
+  display: grid;
+  grid-template-columns: 25rem 1fr 1fr 1fr 25rem;
+  grid-template-areas: ". f s t .";
+  font-style: italic;
+  padding: 2rem;
+  grid-area: footer;
+  z-index: 100;
+}
+.firstContainer {
+  grid-area: f;
+}
+.header {
+  font-weight: 500;
+  margin: 0;
+}
+.secondContainer {
+  grid-area: s;
+}
+.thirdContainer {
+  grid-area: t;
+  width: 100%;
+}
+.text {
+  margin: 0;
+  font-size: 1.1rem;
+}
+@media screen and (max-width: 1990px) {
+  .container {
+    grid-template-columns: 12rem 1fr 1fr 1fr 12rem;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .container {
+    grid-template-columns: 10rem 1fr 1fr 1fr 10rem;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .container {
+    grid-template-columns: 5rem 1fr 1fr 1fr 5rem;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .container {
+    height: 35rem;
+    grid-template-columns: 1rem 1fr 1fr 1fr 1rem;
+    grid-template-rows: 1fr 2rem 1fr 1fr;
+    grid-template-areas:
+      ". f f f ."
+      ". . . . ."
+      ". s s s ."
+      ". t t t .";
+  }
+}

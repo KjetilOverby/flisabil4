@@ -1,0 +1,30 @@
+.container {
+  grid-area: top;
+  color: rgb(238, 238, 238);
+}
+.header {
+  font-size: 4.5rem;
+  font-weight: 100;
+}
+.text {
+  color: #eeeeee;
+  font-size: 1.2rem;
+}
+@media screen and (max-width: 1200px) {
+  .header {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 750px) {
+  .header {
+    font-size: 2.3rem;
+  }
+}
+@media screen and (max-width: 530px) {
+  .header {
+    font-size: 1.8rem;
+  }
+  .text {
+    font-size: 0.8rem;
+  }
+}

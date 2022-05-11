@@ -1,0 +1,45 @@
+/* https://lh3.googleusercontent.com/pw/AM-JKLXEPyyr9SYZiLN4fEFLOBHrLmStqhbgSNyRF1HP9e_Bx-A2Joe0rSRwxYefd1VGOcq2t2vcsYcotklyun-hhgYY_DF7QnXJKoX1OddnPVeYsQDJuDIopF6sPQJl1z5mVNJ4LUqd_gzfiAyyiY293r6j=w1489-h838-no?authuser=0f */
+.container {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0)),
+    url("../../assets/bmw.jpg");
+  height: 70rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  background-position: bottom;
+
+  position: relative;
+  padding: 5rem 12rem;
+}
+@media screen and (max-width: 2150px) {
+  .container {
+    height: 50rem;
+  }
+}
+@media screen and (max-width: 1750px) {
+}
+@media screen and (max-width: 1450px) {
+}
+@media screen and (max-width: 1300px) {
+  .container {
+  }
+}
+@media screen and (max-width: 1100px) {
+  .container {
+  }
+}
+@media screen and (max-width: 950px) {
+  .container {
+  }
+}
+@media screen and (max-width: 750px) {
+  .container {
+    padding: 2rem 2rem;
+    height: 28rem;
+  }
+}
+@media screen and (max-width: 450px) {
+}
+@media screen and (max-height: 300px) {
+}
