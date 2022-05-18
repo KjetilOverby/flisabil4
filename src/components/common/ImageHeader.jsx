@@ -4,7 +4,7 @@ import styles from "../../../styles/common/imageHeader.module.css";
 const ImageHeader = ({ header, image }) => {
   return (
     <>
-      <div className={styles.container}>
+      <div className="container">
         <h1 className="header">{header}</h1>
       </div>
       <style jsx>{`

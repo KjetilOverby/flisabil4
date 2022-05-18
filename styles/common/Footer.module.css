@@ -2,7 +2,7 @@
   height: 5rem;
 }
 .container {
-  background: rgb(129, 156, 153);
+  background: rgb(13, 35, 44);
   color: rgb(219, 219, 219);
   display: grid;
   grid-template-columns: 25rem 1fr 1fr 1fr 25rem;

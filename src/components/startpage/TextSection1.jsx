@@ -1,42 +1,39 @@
 import React from "react";
 import MarginLayout from "../common/MarginLayout";
 import Image from "next/image";
-import workshop from "../../../assets/workshop.jpg";
+
 import carsale from "../../../assets/carsale.jpg";
 import shopcart from "../../../assets/shopcart.jpg";
 
-const TextSection1 = () => {
+const TextSection1 = ({
+  text,
+  image,
+  header,
+  header2,
+  image2,
+  text2,
+  header3,
+  image3,
+  text3,
+}) => {
   return (
     <>
       <MarginLayout>
-        <h1 className="header main-header">VELKOMMEN TIL FLISA BIL</h1>
         <div className="container">
           <div className="text-box">
-            <Image src={carsale} />
-            <h1 className="header">BILSALG</h1>
-            <p className="text">
-              Ta en kikk på våre biler, vi har et bredt utvalg og mange
-              prisklasser. Vi tar gjerne i mot innbytte, vi kan også betale et
-              passende mellomlegg i eventuellt dyrere bil.
-            </p>
+            {image}
+            <h1 className="header">{header}</h1>
+            <p className="text">{text}</p>
           </div>
           <div className="text-box">
-            <Image src={workshop} />
-            <h1 className="header">VERKSTED</h1>
-            <p className="text">
-              Flisa bil tilbyr reparasjon og service på alle type biler. Vi har
-              diagnoseverktøy, spesialverktøy og verkstedutstyr. Her utfører vi
-              også EU-kontroll på bilen din til fast lavpris.
-            </p>
+            {image2}
+            <h1 className="header">{header2}</h1>
+            <p className="text">{text2}</p>
           </div>
           <div className="text-box">
-            <Image src={shopcart} />
-            <h1 className="header">BILXTRA</h1>
-            <p className="text">
-              Vi er en del av Bilxtra. Du kan bestille bildeler og rekvisita på
-              nett. Vi tilbyr også finansiering/delbetaling rentefritt i 12 mnd.
-              medBilxtra konto.
-            </p>
+            {image3}
+            <h1 className="header">{header3}</h1>
+            <p className="text">{text3}</p>
           </div>
         </div>
       </MarginLayout>
@@ -59,6 +56,7 @@ const TextSection1 = () => {
             text-align: center;
             margin: 8rem 0;
           }
+
           @media screen and (max-width: 950px) {
             .container {
               grid-template-columns: 1fr;

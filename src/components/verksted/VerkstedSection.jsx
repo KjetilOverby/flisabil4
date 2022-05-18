@@ -11,13 +11,14 @@ import Dekk from "./Dekk";
 import verksted1 from "../../../assets/verksted/verksted1.jpg";
 
 import MarginLayout from "../common/MarginLayout";
+import Column2Layout from "../common/Column2Layout";
 
 const VerkstedSection = () => {
   return (
     <>
       <MarginLayout>
         <div className="container">
-          <div className="textContainer">
+          <Column2Layout>
             <Image src={verksted1} />
 
             <div>
@@ -41,7 +42,7 @@ const VerkstedSection = () => {
                 </a>
               </div>
             </div>
-          </div>
+          </Column2Layout>
           <div className="euKontollContainer">
             <EuKontroll />
           </div>

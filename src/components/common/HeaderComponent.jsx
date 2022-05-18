@@ -45,6 +45,9 @@ const HeaderComponent = () => {
                   <Link href="https://bilxtra.no/">
                     <p className="tabs-mobile">Bilxtra</p>
                   </Link>
+                  <Link href="/om">
+                    <p className="Om oss">Bilxtra</p>
+                  </Link>
                   <Link href="/kontakt">
                     <p className="tabs-mobile">Kontakt Oss</p>
                   </Link>
@@ -77,6 +80,9 @@ const HeaderComponent = () => {
               </Link>
               <Link href="https://bilxtra.no/">
                 <p className="tabs">Bilxtra</p>
+              </Link>
+              <Link href="/om">
+                <p className="tabs">Om Oss</p>
               </Link>
               <Link href="/kontakt">
                 <p className="tabs">Kontakt Oss</p>
@@ -150,7 +156,7 @@ const HeaderComponent = () => {
           color: #747474;
         }
         .tabContainer {
-          width: 40rem;
+          width: 50rem;
           height: 100%;
           display: flex;
           flex-direction: row;
