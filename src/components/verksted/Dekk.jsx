@@ -8,7 +8,7 @@ const Dekk = () => {
     <>
       <div className="container">
         <div className="textContainer">
-          <h1>Dekk og felg</h1>
+          <h1 className="global-header header">Dekk og felg</h1>
 
           <p className="text">
             Vi forhandler dekk og felger fra Superdaek. Og kan tilby dekkhotell
@@ -62,6 +62,11 @@ const Dekk = () => {
           .imgContainer {
             margin-bottom: 2rem;
             margin-top: -8rem;
+          }
+          @media screen and (max-width: 756px) {
+            .header {
+              margin-bottom: 1rem;
+            }
           }
         }
       `}</style>

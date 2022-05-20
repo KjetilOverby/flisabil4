@@ -46,7 +46,7 @@ const HeaderComponent = () => {
                     <p className="tabs-mobile">Bilxtra</p>
                   </Link>
                   <Link href="/om">
-                    <p className="Om oss">Bilxtra</p>
+                    <p className="tabs-mobile">Om Oss</p>
                   </Link>
                   <Link href="/kontakt">
                     <p className="tabs-mobile">Kontakt Oss</p>
@@ -150,6 +150,7 @@ const HeaderComponent = () => {
         .tabs-mobile {
           text-transform: uppercase;
           font-size: 1.3rem;
+          margin-bottom: 1rem;
         }
         .tabs:hover {
           cursor: pointer;

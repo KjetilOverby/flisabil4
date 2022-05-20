@@ -54,13 +54,13 @@ const StartPage = () => {
           grid-area: content;
         }
         .header {
-          font-size: 2.5rem;
           font-weight: 100;
           margin: 0.5rem 0;
         }
         .main-header {
           text-align: center;
-          margin: 8rem 0;
+          margin: 2rem 0 0rem 0;
+          font-size: 2.1rem;
         }
       `}</style>
     </>

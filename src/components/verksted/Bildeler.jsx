@@ -51,10 +51,9 @@ const Bildeler = () => {
           margin-bottom: 1rem;
         }
 
-        @media screen and (max-width: 1200px) {
-          .imgContainer {
-            margin-bottom: 2rem;
-            margin-top: -8rem;
+        @media screen and (max-width: 756px) {
+          .textContainer {
+            margin-top: -rem;
           }
         }
       `}</style>

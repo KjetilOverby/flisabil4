@@ -33,6 +33,11 @@ const BilxtraGaranti = () => {
           .header {
             margin: 8rem 0 3rem 0;
           }
+          @media screen and (max-width: 756px) {
+            .text {
+              margin-top: -4rem;
+            }
+          }
         `}
       </style>
     </>

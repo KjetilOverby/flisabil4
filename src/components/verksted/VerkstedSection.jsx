@@ -23,7 +23,7 @@ const VerkstedSection = () => {
           <Column2Layout>
             <Image src={verksted1} />
 
-            <div>
+            <div className="textContainer">
               <p className="text">
                 Flisa bil tilbyr reparasjon og service på alle type biler inntil
                 7500kg, og bobiler. Vi har diagnoseverktøy, spesialverktøy og
@@ -54,26 +54,8 @@ const VerkstedSection = () => {
           </div>
           <div className="garanti-container">
             <BilxtraGaranti />
-            {/* <BilxtraSectionsComponent
-              header="5 års garanti på alle reservedeler"
-              text="Som et element til kundenes trygghet i valg av verksted, innfører
-            BilXtra 5 års garanti/100 000 km på reservedeler som benyttes ved
-            våre verksteder. Garantien er gjeldene fra 01.01.2011 og forutsetter
-            at bilen følger bilfabrikantens service - og vedlikeholdsprogram hos
-            BilXtra eller andre offentlig godkjente verksteder."
-              atag="Les mer om delegaranti"
-              link="https://bilxtraverksted.no/delegaranti"
-              image={partsImage}
-            /> */}
+
             <ServiceBilxtra />
-            {/* <BilxtraSectionsComponent
-              header="Service med mobilitetsgaranti"
-              text="Hos BilXtra verksted får du 12 måneders Mobilitetsgaranti med på kjøpet, hvis du bestiller BilXtra – service med Mobilitetsgaranti, eller service ut fra bilens servicehefte.
-            Med BilXtra Mobilitetsgaranti får du hjelp uansett tid og sted i hele Norden i et helt år. Ved å utføre service hos BilXtra verksted, vil Mobilitetsgarantien fornyes med 12 måneder og gi deg ekstra trygghet."
-              atag="Les mer om mobilitetsgaranti"
-              link="https://bilxtraverksted.no/mobilitetsgaranti"
-              image={mobilitetsgarantiImg}
-            /> */}
           </div>
           <div className="dekk-container">
             <Dekk />
@@ -85,65 +67,27 @@ const VerkstedSection = () => {
           font-size: 2.5rem;
           font-weight: 100;
         }
-        .bildelerContainer {
-          grid-area: del;
-        }
-        .container {
-          margin-top: 10rem;
-          margin-bottom: 5rem;
-        }
-        .dekk-container {
-          grid-area: dekk;
-        }
-        .euKontollContainer {
-          grid-area: eu;
-        }
-        .garanti-container {
-          grid-area: gar;
-        }
+
         .logoContainer {
-          grid-area: logo;
           padding-top: 2rem;
         }
         .logo {
           width: 15rem;
           margin-bottom: 2rem;
         }
+        .container {
+          margin-top: 10rem;
+        }
 
-        .textContainer {
-          grid-area: text;
-          margin-bottom: 3rem;
-          display: grid;
-          grid-template-columns: 1fr 1fr;
-          grid-gap: 3rem;
-        }
-        @media (max-width: 2100px) {
-          .container {
-            grid-template-columns: 20rem 1fr 15rem 20rem;
+        @media screen and (max-width: 756px) {
+          .bildelerContainer {
+            margin-top: -4rem;
           }
-        }
-        @media screen and (max-width: 1600px) {
-          .container {
-            grid-template-columns: 3rem 1fr 15rem 3rem;
+          .textContainer {
+            margin: -3rem 0;
           }
-        }
-        @media screen and (max-width: 1200px) {
-          .container {
-            grid-template-columns: 5rem 1fr 15rem 5rem;
-          }
-        }
-        @media screen and (max-width: 900px) {
-          .container {
-            margin-top: 2rem;
-            grid-template-columns: 1rem 1fr 1fr 1rem;
-            grid-column-gap: 0;
-            grid-template-areas:
-              ". text text ."
-              ". logo logo ."
-              ". gar gar ."
-              ". eu eu ."
-              ". del del ."
-              ". dekk dekk .";
+          .garanti-container {
+            margin-top: -4rem;
           }
         }
       `}</style>

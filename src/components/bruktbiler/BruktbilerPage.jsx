@@ -14,7 +14,7 @@ const BruktbilerPage = () => {
         <MarginLayout>
           <div className="container">
             <div className="iframe-container">
-              <h1 className="header">Våre bruktbiler</h1>
+              <h1 className="global-header header">Våre bruktbiler</h1>
               <Iframe
                 url="https://www.finn.no/pw/search/car-norway?orgId=1180510454"
                 id="myId"
@@ -27,7 +27,7 @@ const BruktbilerPage = () => {
               />
             </div>
             <div className="text-container">
-              <h1 className="header">Kjøpe bruktbil?</h1>
+              <h1 className="global-header header">Kjøpe bruktbil?</h1>
               <p className="text">
                 Flisa Bil har drevet bilsalg siden 1985. Vi har biler i alle
                 prisklasser og selges med garanti med mindre noe annet er
@@ -70,40 +70,25 @@ const BruktbilerPage = () => {
         }
 
         .text-container {
-          grid-area: tx;
         }
         @media screen and (max-width: 2100px) {
-          .container {
-            grid-template-columns: 12rem 1fr 1fr 12rem;
-          }
         }
         @media screen and (max-width: 1740px) {
-          .container {
-            grid-template-columns: 8rem 1fr 1fr 8rem;
-          }
         }
         @media screen and (max-width: 1500px) {
-          .container {
-            grid-template-columns: 4rem 1fr 1fr 4rem;
-          }
         }
         @media screen and (max-width: 1200px) {
-          .container {
-            grid-template-columns: 1rem 1fr 1fr 1rem;
-          }
         }
-        @media screen and (max-width: 1000px) {
-          .container {
-            grid-template-columns: 1rem 1fr 1fr 1rem;
-            grid-template-rows: 80rem auto;
-            grid-column-gap: 0;
-            grid-template-areas:
-              ". fr fr ."
-              ". tx tx .";
-          }
+        @media screen and (max-width: 756px) {
           .text-container {
             margin-top: -5rem;
             margin-bottom: 3rem;
+          }
+          .iframe-container {
+            margin-bottom: 15rem;
+          }
+          .header {
+            margin-bottom: 2rem;
           }
         }
       `}</style>
