@@ -12,6 +12,8 @@ import verksted1 from "../../../assets/verksted/verksted1.jpg";
 
 import MarginLayout from "../common/MarginLayout";
 import Column2Layout from "../common/Column2Layout";
+import BilxtraGaranti from "./BilxtraGaranti";
+import ServiceBilxtra from "./ServiceBilxtra";
 
 const VerkstedSection = () => {
   return (
@@ -43,6 +45,7 @@ const VerkstedSection = () => {
               </div>
             </div>
           </Column2Layout>
+
           <div className="euKontollContainer">
             <EuKontroll />
           </div>
@@ -50,7 +53,8 @@ const VerkstedSection = () => {
             <Bildeler />
           </div>
           <div className="garanti-container">
-            <BilxtraSectionsComponent
+            <BilxtraGaranti />
+            {/* <BilxtraSectionsComponent
               header="5 års garanti på alle reservedeler"
               text="Som et element til kundenes trygghet i valg av verksted, innfører
             BilXtra 5 års garanti/100 000 km på reservedeler som benyttes ved
@@ -60,15 +64,16 @@ const VerkstedSection = () => {
               atag="Les mer om delegaranti"
               link="https://bilxtraverksted.no/delegaranti"
               image={partsImage}
-            />
-            <BilxtraSectionsComponent
+            /> */}
+            <ServiceBilxtra />
+            {/* <BilxtraSectionsComponent
               header="Service med mobilitetsgaranti"
               text="Hos BilXtra verksted får du 12 måneders Mobilitetsgaranti med på kjøpet, hvis du bestiller BilXtra – service med Mobilitetsgaranti, eller service ut fra bilens servicehefte.
             Med BilXtra Mobilitetsgaranti får du hjelp uansett tid og sted i hele Norden i et helt år. Ved å utføre service hos BilXtra verksted, vil Mobilitetsgarantien fornyes med 12 måneder og gi deg ekstra trygghet."
               atag="Les mer om mobilitetsgaranti"
               link="https://bilxtraverksted.no/mobilitetsgaranti"
               image={mobilitetsgarantiImg}
-            />
+            /> */}
           </div>
           <div className="dekk-container">
             <Dekk />

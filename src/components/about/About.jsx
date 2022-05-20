@@ -10,7 +10,10 @@ const About = () => {
   return (
     <>
       <div className="container">
-        <ImageHeader image="https://flisabil4.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fassets%2Finsidecar3.f529961013732f1ea833a57a7219e0e2.jpg&w=1920&q=75" />
+        <ImageHeader
+          header="OM OSS"
+          image="https://lh3.googleusercontent.com/pw/AM-JKLVWb_83Y1DkDStYPwRRppAoYYRzxMfzumdp1Xht0g1hf3Qgm69t-iJdEPGN86cluMwttjNmTnCzoW69ZbhulANdAwYlHE65TaFxXPmOkbT7m1Zo2Q7SiVKeRgUTp01ZUZOClecq9u349KHQrwWey5Cu=w1920-h697-no?authuser=0"
+        />
         <MarginLayout>
           <h1 className="global-header header">Kort om oss</h1>
           <Column2Layout>
