@@ -16,7 +16,7 @@ const StartPage = () => {
     <>
       <div className="container">
         <ImageSection />
-        <h1 className="header main-header">VELKOMMEN TIL FLISA BIL</h1>
+        <h1 className="global-header main-header">VELKOMMEN TIL FLISA BIL</h1>
         <TextSection1
           header="BILSALG"
           image={<Image src={carsale} />}
@@ -59,8 +59,15 @@ const StartPage = () => {
         }
         .main-header {
           text-align: center;
-          margin: 2rem 0 0rem 0;
-          font-size: 2.1rem;
+          margin: 6rem 0 8rem 0;
+          font-size: 2.5rem;
+        }
+        @media screen and (max-width: 756) {
+          .main-header {
+            text-align: center;
+            margin: 2rem 0 0rem 0;
+            font-size: 2.1rem;
+          }
         }
       `}</style>
     </>
