@@ -69,3 +69,8 @@ p {
     font-size: 2.5rem;
   }
 }
+@media screen and (max-width: 756px) {
+  .global-header {
+    font-size: 2rem;
+  }
+}

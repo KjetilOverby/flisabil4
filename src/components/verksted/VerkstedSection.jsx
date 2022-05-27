@@ -21,8 +21,6 @@ const VerkstedSection = () => {
       <MarginLayout>
         <div className="container">
           <Column2Layout>
-            <Image src={verksted1} />
-
             <div className="textContainer">
               <p className="text">
                 Flisa bil tilbyr reparasjon og service på alle type biler inntil
@@ -44,6 +42,7 @@ const VerkstedSection = () => {
                 </a>
               </div>
             </div>
+            <Image src={verksted1} />
           </Column2Layout>
 
           <div className="euKontollContainer">
@@ -84,7 +83,7 @@ const VerkstedSection = () => {
             margin-top: -4rem;
           }
           .textContainer {
-            margin: -3rem 0;
+            margin: -8rem 0 0 0;
           }
           .garanti-container {
             margin-top: -4rem;

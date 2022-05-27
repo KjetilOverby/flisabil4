@@ -62,10 +62,10 @@ const StartPage = () => {
           margin: 6rem 0 8rem 0;
           font-size: 2.5rem;
         }
-        @media screen and (max-width: 756) {
+        @media screen and (max-width: 756px) {
           .main-header {
             text-align: center;
-            margin: 2rem 0 0rem 0;
+            margin: 3rem 0 0rem 0;
             font-size: 2.1rem;
           }
         }
