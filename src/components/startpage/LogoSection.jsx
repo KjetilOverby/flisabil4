@@ -3,6 +3,7 @@ import Image from "next/image";
 import vegvesenLogo from "../../../assets/vegvesen.png";
 import bilbransjeLogo from "../../../assets/social.png";
 import bilxtraLogo from "../../../assets/Bilxtra_logo.png";
+import godkjentStatens from "../../../assets/godkjent-statens.jpg";
 
 const LogoSection = () => {
   return (
@@ -12,7 +13,7 @@ const LogoSection = () => {
           <Image src={bilxtraLogo} />
         </div>
         <div className="statensContainer">
-          <Image src={vegvesenLogo} />
+          <Image src={godkjentStatens} />
         </div>
         <div className="bilbransjeContainer">
           <Image src={bilbransjeLogo} />
@@ -25,7 +26,7 @@ const LogoSection = () => {
           margin: 5rem 25rem;
         }
         .statensContainer {
-          width: 10rem;
+          width: 6rem;
         }
         .bilbransjeContainer {
           width: 12rem;

@@ -25,7 +25,7 @@ const StartPage = () => {
               passende mellomlegg i eventuellt dyrere bil."
           header2="VEKSTED"
           image2={<Image src={workshop} />}
-          text2="Flisa bil tilbyr reparasjon og service på alle type biler. Vi har
+          text2="Flisa Bil tilbyr reparasjon og service på alle type biler. Vi har
           diagnoseverktøy, spesialverktøy og verkstedutstyr. Her utfører vi
           også EU-kontroll på bilen din til fast lavpris."
           header3="BILXTRA"

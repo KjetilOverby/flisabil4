@@ -17,7 +17,9 @@ const HeaderComponent = () => {
     <>
       <div className="container">
         <div className="logoContainer">
-          <Image src={logo} />
+          <Link href="/">
+            <Image src={logo} />
+          </Link>
         </div>
         <div className="tabContainer">
           {isMobile ? (
@@ -109,6 +111,9 @@ const HeaderComponent = () => {
           height: 3rem;
           width: 13.5rem;
           position: relative;
+        }
+        .logoContainer:hover {
+          cursor: pointer;
         }
         .sidebar-container {
           position: absolute;

@@ -23,7 +23,7 @@ const VerkstedSection = () => {
           <Column2Layout>
             <div className="textContainer">
               <p className="text">
-                Flisa bil tilbyr reparasjon og service på alle type biler inntil
+                Flisa Bil tilbyr reparasjon og service på alle type biler inntil
                 7500kg, og bobiler. Vi har diagnoseverktøy, spesialverktøy og
                 verkstedutstyr slik at din bil får god oppfølging og pleie når
                 den er på vårt verksted. Bestill time på verksted i dag.
