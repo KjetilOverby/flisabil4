@@ -77,6 +77,9 @@ const VerkstedSection = () => {
         .container {
           margin-top: 10rem;
         }
+        .dekk-container {
+          margin-bottom: 5rem;
+        }
 
         @media screen and (max-width: 756px) {
           .bildelerContainer {

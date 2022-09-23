@@ -54,6 +54,7 @@ const About = () => {
         {`
           .container {
             grid-area: content;
+            margin-bottom: 5rem;
           }
           .header {
             margin-bottom: 3rem;
