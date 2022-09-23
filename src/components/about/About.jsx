@@ -57,6 +57,7 @@ const About = () => {
           }
           .header {
             margin-bottom: 3rem;
+            margin-top: 3rem;
           }
           .text {
             font-size: 1.2rem;

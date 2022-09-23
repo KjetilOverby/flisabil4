@@ -95,7 +95,7 @@ const HeaderComponent = () => {
       </div>
       <style jsx>{`
         .container {
-          height: 6rem;
+          height: 6.5rem;
           background: #ffffff;
           display: flex;
           align-items: center;
@@ -106,6 +106,7 @@ const HeaderComponent = () => {
           grid-area: head;
           z-index: 100;
           grid-area: header;
+          border-bottom: 1px solid #e0e0e0;
         }
         .logoContainer {
           height: 3rem;

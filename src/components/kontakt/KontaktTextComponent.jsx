@@ -8,7 +8,7 @@ const KontaktTextComponent = () => {
     <>
       <div className="container">
         <div className="first-container">
-          <h1>Flisa Bil AS</h1>
+          <h1 className="header">Flisa Bil AS</h1>
           <p className="sub-name">Negardsveien 8, 2270 Flisa</p>
           <p className="sub-name">
             <HiPhone style={{ marginRight: ".5rem", verticalAlign: "top" }} />{" "}
@@ -56,6 +56,7 @@ const KontaktTextComponent = () => {
         .first-container {
           grid-area: fc;
         }
+
         .second-container {
           grid-area: sc;
         }
@@ -98,6 +99,9 @@ const KontaktTextComponent = () => {
               ". fc fc"
               ". sc sc"
               ". tc tc";
+          }
+          .header {
+            margin: 2rem 0;
           }
         }
       `}</style>
