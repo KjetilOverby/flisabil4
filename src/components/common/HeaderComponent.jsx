@@ -18,7 +18,7 @@ const HeaderComponent = () => {
       <div className="container">
         <div className="logoContainer">
           <Link href="/">
-            <Image src={logo} />
+            <Image src={logo} layout="fill" />
           </Link>
         </div>
         <div className="tabContainer">
@@ -33,8 +33,7 @@ const HeaderComponent = () => {
                 <div
                   className={`sidebar-container ${
                     openSidebar ? "sidebar-open" : "sidebar-close"
-                  }`}
-                >
+                  }`}>
                   <Link href="/">
                     <p className="tabs-mobile">Hjem</p>
                   </Link>
@@ -65,8 +64,7 @@ const HeaderComponent = () => {
                     position: "absolute",
                     top: "0",
                     left: "0",
-                  }}
-                ></div>
+                  }}></div>
               )}
             </>
           ) : (

@@ -6,11 +6,11 @@ import PageLayout from "../src/components/common/PageLayout";
 
 const bruktbiler = () => {
   return (
-    <PageLayout>
+    <>
       <HeaderComponent />
-      <BruktbilerPage />
-      <FooterComponent />
-    </PageLayout>
+      {/*   <BruktbilerPage />
+      <FooterComponent /> */}
+    </>
   );
 };
 

@@ -10,13 +10,13 @@ const LogoSection = () => {
     <>
       <div className="container">
         <div className="bilxtraContainer">
-          <Image src={bilxtraLogo} />
+          <Image src={bilxtraLogo} width="200" />
         </div>
         <div className="statensContainer">
-          <Image src={godkjentStatens} />
+          <Image src={godkjentStatens} width="100" />
         </div>
         <div className="bilbransjeContainer">
-          <Image src={bilbransjeLogo} />
+          <Image src={bilbransjeLogo} width="200" />
         </div>
       </div>
       <style jsx>{`

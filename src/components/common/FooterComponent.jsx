@@ -34,7 +34,7 @@ const FooterComponent = () => {
         </div>
         <div className={styles.thirdContainer}>
           <div style={{ width: "15rem" }}>
-            <Image src={bilxtraLogo} alt="" />
+            <Image src={bilxtraLogo} alt="logo" width="200" />
           </div>
         </div>
       </div>
