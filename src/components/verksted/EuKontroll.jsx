@@ -11,7 +11,7 @@ const EuKontroll = () => {
         <h1 className="global-header verksted-header">Eu-kontroll</h1>
         <Column2Layout>
           <div className="text-img-container">
-            <Image src={carcheck} />
+            <Image src={carcheck} layout="responsive" />
             <p className="text textEu1">
               Vi tar eu-kontroll på alle type biler inntil 7500kg, og bobiler.
               Hos oss har vi fast lavpris på Eu-kontroll. Vi gir tilbud til
@@ -24,7 +24,7 @@ const EuKontroll = () => {
             </a>
           </div>
           <div className="text-img-container">
-            <Image src={vwcar} />
+            <Image src={vwcar} layout="responsive" />
             <p className="text textEu1">
               Så lenge kjøretøyet er godkjent innen fristen, kan du selv velge
               hvor tidlig du ønsker å gjennomføre EU-kontrollen. Fristen er

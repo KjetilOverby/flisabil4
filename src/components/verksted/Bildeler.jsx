@@ -35,7 +35,7 @@ const Bildeler = () => {
           </div>
         </div>
         <div className="imgContainer">
-          <Image src={carparts} />
+          <Image src={carparts} layout="responsive" />
         </div>
       </Column2Layout>
       <style jsx>{`

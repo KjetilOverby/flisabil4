@@ -11,7 +11,7 @@ const BilxtraGaranti = () => {
       </h1>
       <Column2Layout>
         <div>
-          <Image src={spareparts} />
+          <Image src={spareparts} layout="responsive" />
         </div>
         <div>
           <p className="text">

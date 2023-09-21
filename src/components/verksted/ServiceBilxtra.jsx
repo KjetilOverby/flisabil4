@@ -21,13 +21,12 @@ const ServiceBilxtra = () => {
           </p>
           <a
             className="text"
-            href="https://bilxtraverksted.no/mobilitetsgaranti"
-          >
+            href="https://bilxtraverksted.no/mobilitetsgaranti">
             Les mer om mobilitetsgaranti
           </a>
         </div>
         <div>
-          <Image src={service} />
+          <Image src={service} layout="responsive" />
         </div>
       </Column2Layout>
       <style jsx>

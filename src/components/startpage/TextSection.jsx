@@ -12,7 +12,7 @@ const TextSection = () => {
     <MarginLayout>
       <div className={styles.container}>
         <div>
-          <Image src={carservice} width="1120" />
+          <Image src={carservice} layout="responsive" />
         </div>
         <ul>
           <li>

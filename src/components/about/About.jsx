@@ -17,7 +17,8 @@ const About = () => {
         <MarginLayout>
           <h1 className="global-header header">Kort om oss</h1>
           <Column2Layout>
-            <Image src={insidecar3} />
+            <Image src={insidecar3} layout="responsive" />
+
             <p className="text">
               Flisa Bil har drevet bilsalg siden 1985. Vi har solgt/kjøpt biler
               i alle prisklasser siden den gang. Mest til kunder her i
@@ -46,7 +47,7 @@ const About = () => {
                 umiddelbart.
               </p>
             </div>
-            <Image src={insidecar2} />
+            <Image src={insidecar2} layout="responsive" />
           </Column2Layout>
         </MarginLayout>
       </div>

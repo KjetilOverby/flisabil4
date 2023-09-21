@@ -15,10 +15,10 @@ const Dekk = () => {
             for våre kunder.
             {/* <a href="https://bilxtra.no/kundesenter/klikk-og-hent/">her</a> */}
           </p>
-          <Image src={superdaekLogo} />
+          <Image src={superdaekLogo} layout="responsive" />
         </div>
         <div className="imgContainer">
-          <Image src={dekk} />
+          <Image src={dekk} layout="responsive" />
         </div>
         <div className="nettbutikkButtonContainer">
           <a href="https://www.superdekk.no/">

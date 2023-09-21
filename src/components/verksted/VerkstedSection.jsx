@@ -35,14 +35,14 @@ const VerkstedSection = () => {
               </p>
               <div className="logoContainer">
                 <div className="logo">
-                  <Image src={verkstedLogo} />
+                  <Image src={verkstedLogo} layout="responsive" />
                 </div>
                 <a href="https://bilxtraverksted.no/elverum/flisa-bil">
                   <button className="btn2">Bestill verkstedtime</button>
                 </a>
               </div>
             </div>
-            <Image src={verksted1} />
+            <Image src={verksted1} layout="responsive" />
           </Column2Layout>
 
           <div className="euKontollContainer">
