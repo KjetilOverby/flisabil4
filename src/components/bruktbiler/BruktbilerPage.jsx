@@ -30,8 +30,7 @@ const BruktbilerPage = () => {
               width="100%"
               height="1500"
               scrolling="auto"
-              align="middle"
-            ></iframe>
+              align="middle"></iframe>
           </div>
           {/* <div className="text-container">
               <h1 className="global-header header">Kjøpe bruktbil?</h1>
@@ -62,6 +61,7 @@ const BruktbilerPage = () => {
       <style jsx>{`
         .container {
           min-height: 100vh;
+          padding-top: 6rem;
         }
         .header {
           margin: 3rem 0;

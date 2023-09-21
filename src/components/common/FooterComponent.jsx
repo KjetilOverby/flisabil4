@@ -21,7 +21,7 @@ const FooterComponent = () => {
           </p>
           <a className={styles.text} href="mailto: flisabil@online.no">
             <GrMail style={{ marginRight: ".5rem", verticalAlign: "toa" }} />{" "}
-            flisabil@online.no
+            post@flisabil.no
           </a>
           <p className={styles.text}>Bilsalg/v Arild Nygaard: 91 80 84 62</p>
         </div>

@@ -16,7 +16,7 @@ const KontaktTextComponent = () => {
           </p>
           <a className="sub-name" href="mailto: flisabil@online.no">
             <GrMail style={{ marginRight: ".5rem", verticalAlign: "top" }} />{" "}
-            flisabil@online.no
+            post@flisabil.no
           </a>
         </div>
         <div className="second-container">

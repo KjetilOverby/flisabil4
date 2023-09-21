@@ -8,8 +8,8 @@ const bruktbiler = () => {
   return (
     <>
       <HeaderComponent />
-      {/*   <BruktbilerPage />
-      <FooterComponent /> */}
+      <BruktbilerPage />
+      <FooterComponent />
     </>
   );
 };
